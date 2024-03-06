@@ -53,3 +53,9 @@ const cadastraTarefa = (evento) => {
     <ListaDeTarefas :tarefas="getTarefasFiltradas()" />
   </div>
 </template>
+
+<style>
+  html {
+    color-scheme: dark light;
+  }
+</style>

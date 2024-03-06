@@ -10,7 +10,7 @@
                     type="text" class="form-control" placeholder="Digite sua tarefa">
             </div>
             <div class="col-md-2">
-                <button type="submit" class="btn btn-primary">Adicionar</button>
+                <button type="submit" class="btn btn-success">Adicionar</button>
             </div>
             <div class="col-md-2">
                 <select @change="props.trocarFiltro" class="form-control">
